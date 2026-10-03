@@ -8,9 +8,9 @@ def dec():
         for i in range(0,26):
             for c in text:
                 if c.upper() in alphabet:
-                    output += alphabet[(alphabet.index(c) + i)%26]
-                elif c == " ":
-                    output += " "
+                    output += alphabet[(alphabet.index(c.upper()) + i)%26]
+                else:
+                    output += c
 
             print(output + " " + str(i) + "\n")
             output = ""
