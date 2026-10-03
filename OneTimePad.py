@@ -13,4 +13,3 @@ def dec(x):
     print(binary_key + binary_text)
 
 
-dec("84A837C9D374AD")
